@@ -14,11 +14,10 @@ $ gerbil pkg install github.com/might-gerbils/gerbil-mysql
 ```
 
 ## API
-::: tip To use bindings from this package
+To use bindings from this package:
 ```scheme
 (import :clan/db/mysql)
 ```
-:::
 
 #### mysql-connect
 ```scheme
