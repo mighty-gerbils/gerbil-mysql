@@ -10,7 +10,7 @@ You need to have `libmysqlclient` installed in your system.
 
 To install the package in your `$GERBIL_PATH` (`~/.gerbil` by default):
 ```shell
-$ gerbil pkg install github.com/might-gerbils/gerbil-mysql
+$ gerbil pkg install github.com/mighty-gerbils/gerbil-mysql
 ```
 
 ## API
