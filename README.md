@@ -29,7 +29,6 @@ To use bindings from this package:
 ```
 
 Opens a new connection to a MySQL server.
-```
 
 # License and Copyright
 
