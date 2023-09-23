@@ -16,16 +16,17 @@ $ gerbil pkg install github.com/might-gerbils/gerbil-mysql
 ## API
 To use bindings from this package:
 ```scheme
-(import :clan/db/mysql)
+(import :std/db/dbi :clan/db/mysql)
 ```
 
 #### mysql-connect
 ```scheme
-(mysql-connect host: (host #f)
-               port: (port 0)
-               user: (user #f)
-               passwd: (passwd #f)
-               db: (db #f))
+(sql-connect mysql-connect
+    host: (host #f)
+    port: (port 0)
+    user: (user #f)
+    passwd: (passwd #f)
+    db: (db #f))
 ```
 
 Opens a new connection to a MySQL server.
