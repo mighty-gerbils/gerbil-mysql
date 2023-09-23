@@ -19,7 +19,7 @@ To use bindings from this package:
 (import :std/db/dbi :clan/db/mysql)
 ```
 
-#### mysql-connect
+### mysql-connect
 ```scheme
 (sql-connect mysql-connect
     host: (host #f)
